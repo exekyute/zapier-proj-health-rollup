@@ -8,16 +8,12 @@ Built with Zapier, Notion, and an AI step. No code, no scripting.
 
 ![Slack standup output](images/slack-standup.png)
 
----
-
 ## Why I built it
 
 Project status usually lives scattered across notes and deadlines, and nobody
 re-reads it. I wanted one glanceable message each morning that tells me where to
 look first, and, more importantly, **what moved overnight**, without me opening
 anything.
-
----
 
 ## What it does
 
@@ -48,8 +44,6 @@ Morning standup - Jun 2, 2026
 🟢 GREEN (2): Vendor portal migration, Newsletter relaunch
 ```
 
----
-
 ## How it works
 
 A scheduled, AI-scored automation with one twist: it remembers its own previous
@@ -69,8 +63,6 @@ output, so it can report deltas instead of a flat list.
 The "read memory" and "save memory" stages are what let the standup lead with
 **CHANGED OVERNIGHT**. A plain scheduled automation has no sense of yesterday;
 this one does.
-
----
 
 ## The data model
 
@@ -93,8 +85,6 @@ Notion is read-only in this build: The automation reads project fields and posts
 the result to Slack. It does not write back. The AI's color and reason appear in
 the Slack standup.
 
----
-
 ## Scoring logic
 
 - **Red:** milestone within 3 days and not on track, a named blocker, or no
@@ -105,16 +95,12 @@ the Slack standup.
 
 The exact wording lives in [`ai-prompt.md`](ai-prompt.md).
 
----
-
 ## Stack
 
 - **Zapier** for the scheduling, data, storage, and Slack delivery
 - **Notion** as the project database
 - **AI step** for scoring and the change comparison
 - **Slack** for the daily delivery
-
----
 
 ## What's in this repo
 
