@@ -48,7 +48,7 @@ Morning standup - Jun 2, 2026
 
 This workflow is published as a Zapier guided template. You can copy it into your own Zapier account:
 
-[Get the Zap template](PASTE_YOUR_ZAPIER_TEMPLATE_LINK)
+[Get the Zap template](https://zapier.com/templates/details/daily-project-health-standup-notion-to-slack-with-ai-scoring-1a28d2?secret=MTp0ZW1wbGF0ZTotMnhzeVNILURGOHBhbmxwcS1EWlNuZVZhY0Zibk8wek93cC1jVG96OGVBOnl6dHpjZQ)
 
 You connect your own Notion, Slack, and Storage, then drop in your own Notion database id. None of my accounts, keys, or ids are included in the template.
 
